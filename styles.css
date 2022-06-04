@@ -1,0 +1,188 @@
+body {
+  text-align: center;
+  justify-content: center;
+  background-color: bisque;
+  margin: 5px;
+  padding: 20px;
+  display: block;
+}
+* {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(129, 43, 43);
+  position: relative;
+}
+
+li {
+  float: left;
+  align-self: center;
+}
+
+li a {
+  display: block;
+  color: rgb(231, 221, 221);
+  text-align: center;
+  justify-items: center;
+  padding: 20px 50px 20px 50px;
+  padding-left: 250px;
+  text-decoration: none;
+  font-size: 20px;
+}
+li a:hover {
+  background-color: rgb(189, 136, 136);
+  font-size: 50px;
+}
+img {
+  margin-top: 50px;
+  mix-blend-mode: darken;
+  background-blend-mode: darken;
+  width: 300px;
+  height: 400px;
+  border-radius: 50%;
+}
+p {
+  font-size: 20px;
+}
+.hobbies-ul {
+  display: contents;
+  list-style-type: circle;
+  font-size: 15px;
+  overflow: visible;
+  position: absolute;
+}
+.skills-ul {
+  display: contents;
+  list-style-type: disc;
+  font-size: 15px;
+  overflow: visible;
+  position: absolute;
+}
+.subheader {
+  background-color: rgb(100, 42, 42);
+  color: rgb(211, 167, 110);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  display: inherit;
+}
+footer button a {
+  width: 100%;
+  color: rgb(148, 114, 71);
+  background-color: rgb(119, 41, 41);
+  font-size: 100px;
+  text-align: center;
+  border-radius: 50px;
+}
+button a:hover {
+  background-color: rgb(197, 170, 170);
+  rgb(119, 41, 41);
+}
+button a {
+  color: rgb(211, 167, 110);
+  text-decoration: none;
+  background-size: 200px;
+}
+/* styling of contact page*/
+#contact-form {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #ddd;
+  background-size: 2000px;
+  padding: 10px 10px 10px 10px;
+  width: 600px;
+  font-size: 30px;
+  text-align: center;
+  align-items: flex-start;
+  margin: 170px 0px 0px 300px;
+  display: table-caption;
+  align-items: stretch;
+}
+.sbtn {
+  font-size: 20px;
+  width: 150px;
+  border-radius: 20px;
+}
+.sbtn:hover {
+  background-color: rgb(119, 41, 41);
+}
+/*end of contact page styling*/
+/*styling of registration page*/
+.gender-drop {
+  background-color: #691717;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  border: none;
+}
+.gender-d {
+  position: relative;
+  display: inline-block;
+}
+.gender-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #df6262;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.gender-dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.gender-dropdown p:hover {
+  background-color: #ddd;
+}
+.gender-d:hover .gender-dropdown {
+  display: inline;
+}
+.gender-d:hover .gender-drop {
+  background-color: #551425;
+}
+#registration-form {
+  background-color: #ddd;
+  background-size: 2000px;
+  padding: 10px 10px 10px 10px;
+  width: 600px;
+  font-size: 30px;
+  text-align: center;
+  align-items: flex-start;
+  margin: 70px 0px 0px 300px;
+  display: table-caption;
+  align-items: stretch;
+}
+input {
+  width: 600px;
+  height: 30px;
+}
+.registration-h1 {
+  margin-bottom: -60px;
+}
+.contact-h1 {
+  margin-bottom: -150px;
+}
+/*end of registration styling*/
+/*styling of login page*/
+#login-form {
+  background-color: #ddd;
+  background-size: 2000px;
+  padding: 10px 10px 10px 10px;
+  width: 600px;
+  font-size: 30px;
+  text-align: center;
+  align-items: flex-start;
+  margin: 50px 0px 0px 300px;
+  display: table-caption;
+  align-items: stretch;
+}
+.login-h1{
+  margin-bottom: -50px;
+}
+#login-footer{
+  margin-top: 100px;
+}
